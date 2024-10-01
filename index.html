@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Срез Горбунова</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/main.js" defer></script>
+</head>
+
+<body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+          <div class="modal-item">
+            <img src="pocht.png" alt="Картинка 1">
+            <p>support@nutritionist.com</p>
+          </div>
+          <div class="modal-item">
+            <img src="phone.png" alt="Картинка 2">
+            <p>+7(967)-(124)-76-87</p>
+          </div>
+          <div class="modal-item">
+            <img src="geo.png" alt="Картинка 3">
+            <p>Some Where in the World</p>
+          </div>
+        </div>
+      </div>
+    
+
+<script>window.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('modal');
+  
+    setTimeout(() => {
+      modal.style.display = 'block';
+    }, 3000); 
+  });
+  window.addEventListener('DOMContentLoaded', () => {
+  const modal = document.getElementById('modal');
+  const closeButton = document.querySelector('.close-button');
+
+  setTimeout(() => {
+    modal.style.display = 'block';
+  }, 3000);
+
+  closeButton.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
+
+  window.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
+});
+
+  </script>
+
+
+    <div class="modalNumber">
+        <a href="tel:+79671247687"><img src="Icon.png" alt="">+7(967)-(124)-76-87</a>
+    </div>
+    <header>
+        <nav>
+          <div class="nav-container">
+            <a href="#" class="logo">
+              <img src="logo.png" alt="Logo">
+            </a>
+            <ul class="nav-links">
+              <li>
+                <a href="#">Home</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">home 1</a></li>
+                </ul>
+              </li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Team</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      
+
+
+    <main>
+        
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Our Testimonials</h1>
+                <p>Our satisfied clients share their success stories and experiences on their journey to better health
+                    and well-being.</p>
+                <br><br>
+                <div class="otzyv" style="border: 1px solid #EEF8D3;width: 1200px; height: 157px;">
+                    <p class="aye">I can't thank Nutritionist enough for their personalized nutrition coaching. It has
+                        completely transformed my approach to food and helped me shed those extra pounds. Highly
+                        recommended!</p>
+                    <div class="kart">
+                        <div class="slide active">
+                            <img src="Container.png" style="max-width: 1250px;" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="Container.jpg" style="max-width: 1250px;" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="Container.png" style="max-width: 1250px;" alt="">
+                        </div>
+                    </div>
+
+                    <div class="slider-arrows">
+                      
+                        <div class="slider-controls">
+                              <button class="slider-prev">&#8249;</button>
+                            <div class="slider-nav">
+                                <span class="slider-dot active"></span>
+                                <span class="slider-dot"></span>
+                                <span class="slider-dot"></span>
+                            </div>
+                            <button class="slider-next">&#8250;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <script src="main.js"></script>
+        <section>
+
+            <section>
+                <div class="hero-content">
+                    <h1 style="padding-top: 80px;">Our Pricing</h1>
+                    <p style="text-align: center;">We outline our flexible and affordable options to support you on your
+                        journey to optimal health and nutrition. We believe that <br>everyone deserves access to
+                        personalized nutrition guidance and resources</p>
+
+                    <div class="btnoye">
+                        <button>Monthly</button>
+                        <button>Early</button>
+                    </div>
+                    <h6>Save 50% on Yearly</h6>
+                </div>
+
+            </section>
+            <section class="features">
+                <div class="feature-item">
+                    <h3>Basic Plan</h3>
+                    <h4>Up to 50% off on Yearly Plan</h4>
+                    <p>Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching,
+                        access to our app, meal planning assistance, and email support.</p>
+                    <div class="price">
+                        <h1>$49</h1>
+                        <h6>/mounth</h6>
+                    </div>
+                    <button>Choose plan</button>
+                </div>
+                <div class="feature-item">
+                    <h3>Premium Plan</h3>
+                    <h4>Up to 50% off on Yearly Plan</h4>
+                    <p>Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you'll receive
+                        video consultations, priority support, and personalized recipe recommendations.</p>
+                    <div class="price">
+                        <h1>$79</h1>
+                        <h6>/mounth</h6>
+                    </div>
+                    <button>Choose plan</button>
+                </div>
+                <div class="feature-item">
+                    <h3>Ultimate Plan</h3>
+                    <h4>Up to 50% off on Yearly Plan</h4>
+                    <p>Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy all the
+                        features of the Premium Plan, along with 24/7 chat support and exclusive workshops.</p>
+                    <div class="price">
+                        <h1>$99</h1>
+                        <h6>/mounth</h6>
+                    </div>
+                    <button>Choose plan</button>
+                </div>
+            </section>
+
+            <script>let modalNumber = document.querySelector(".modalNumber");
+                let team = document.querySelector(".btnoye");
+                
+                let observer = new IntersectionObserver(
+                    (entries) => {
+                        entries.forEach((entry) => {
+                            if (entry.isIntersecting) {
+                                modalNumber.classList.add("show");
+                            } else {
+                                modalNumber.classList.remove("show");
+                            }
+                        });
+                    },
+                    {
+                        threshold: 0.75,
+                    }
+                );
+                
+                observer.observe(team);</script>
+
+            <div class="hero-content">
+                <div class="faq">
+                    <h1 style="text-align: center; padding-top: 10px;">FAQ</h1>
+                    <p style="text-align: center;">We address commonly asked questions and provide comprehensive answers
+                        to help you navigate your way
+                        through your <br> nutrition and wellness journey</p>
+                 
+                            <div class="faq__item">
+                                <h3>What is personalized nutrition coaching? <button style="height: 30px; width: 30px; background-color: #234338; color: white; text-align: center; font-size: 15px;">+</button>
+                                </h3>
+                                <p>Personalized nutrition coaching involves creating a customized nutrition plan based on your unique goals, preferences, and dietary requirements. Our team of experts will work closely with you to develop a plan that fits your lifestyle and helps you achieve optimal health and wellness. </p>
+                            </div>
+                            <div class="faq__item">
+                                <h3>How can nutrition coaching help me lose weight? <button style="height: 30px; width: 30px; background-color: #234338; color: white; text-align: center;">+</button></h3>
+                                <p>Thus, the advantage of psychotherapy as an effective way to lose weight is to solve the problem of excess weight not only at the level of the stomach and body, but also at the level of consciousness, subconsciousness and unconsciousness, which in fact and control the metabolic processes, the processes of saturation and recovery of the body.</p>
+                            </div>
+                            <div class="faq__item">
+                                <h3>Can I still enjoy my favorite foods while on a nutrition plan?<button style="height: 30px; width: 30px; background-color: #234338; color: white; text-align: center;">+</button></h3>
+                                <p>Thus, the advantage of psychotherapy as an effective way to lose weight is to solve the problem of excess weight not only at the level of the stomach and body, but also at the level of consciousness, subconsciousness and unconsciousness, which in fact and control the metabolic processes, the processes of saturation and recovery of the body.</p>
+                            </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+<script>"use strict";
+    let menuElems = document.querySelectorAll('.menu__elem');
+    
+    menuElems.forEach(menuElem => {
+        let submenu = menuElem.querySelector('.submenu');
+        let btn = menuElem.querySelector('.menu__btn');
+    
+        menuElem.addEventListener('mouseenter', function(){
+            submenu.classList.add('active')
+            btn.classList.add('active')
+        })
+    
+        menuElem.addEventListener('mouseleave', function(){
+            submenu.classList.remove('active')
+            btn.classList.remove('active')
+        })
+    })
+    
+    document.querySelector('.faq').addEventListener('click', function(event){
+        let target = event.target.closest('.faq__item');
+        if(!target) return;
+    
+        target.classList.toggle('active');
+        let p = target.querySelector('p');
+        if(target.classList.contains('active')){
+            p.style.height = p.scrollHeight + 'px';
+        }else{
+            p.style.height = '';
+        }
+    })</script>
+
+
+</body>
+
+</html>
